@@ -56,8 +56,8 @@ let mmdzzhd = $.getdata('mmdzzhd')
     mmdzzhdArr.push($.getdata(`mmdzzhd${i}`))
   }
     console.log(`------------- 共${mmdzzhdArr.length}个账号-------------\n`)
-    const mmdzzurlArr = [{"ed":"EbI35ZyWY0t/gBhhEQNwo++uZ6EzyJFU34o5uSUhmOyllRAgjsomrjSS2a/S3AS3K4iH5dza6Kp/0F+fDaizzcNw7x0yo2dWmHCFL6V3TNg="}];
-    const mmdzzhdArr = [{"Connection":"keep-alive","Accept-Encoding":"gzip, deflate, br","Content-Type":"application/json","Origin":"https://catxxx.higaoyao.com","User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148","platform":"ios","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwcm9kIiwiaWF0IjoxNjE4MzYyMzkwLCJleHAiOjE2MjA5MDAzOTAsIm5iZiI6MTYxODM2MjM5MCwidWlkIjoxMTAxNzY4fQ.-sLnsaeVh9tU0bLiZEUbSypX3pJYm9xAHMEf83BhCYY","versionCode":"33","Host":"xxlapi.higaoyao.com:553","Referer":"https://catxxx.higaoyao.com/v228/index.html","Accept-Language":"zh-cn","Accept":"*/*","Content-Length":"117"}];
+    const mmdzzurlArr = ["ed":"EbI35ZyWY0t/gBhhEQNwo++uZ6EzyJFU34o5uSUhmOyllRAgjsomrjSS2a/S3AS3K4iH5dza6Kp/0F+fDaizzcNw7x0yo2dWmHCFL6V3TNg="];
+    const mmdzzhdArr = ["Connection":"keep-alive","Accept-Encoding":"gzip, deflate, br","Content-Type":"application/json","Origin":"https://catxxx.higaoyao.com","User-Agent":"Mozilla/5.0 (iPhone; CPU iPhone OS 14_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148","platform":"ios","Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwcm9kIiwiaWF0IjoxNjE4MzYyMzkwLCJleHAiOjE2MjA5MDAzOTAsIm5iZiI6MTYxODM2MjM5MCwidWlkIjoxMTAxNzY4fQ.-sLnsaeVh9tU0bLiZEUbSypX3pJYm9xAHMEf83BhCYY","versionCode":"33","Host":"xxlapi.higaoyao.com:553","Referer":"https://catxxx.higaoyao.com/v228/index.html","Accept-Language":"zh-cn","Accept":"*/*","Content-Length":"117"];
     Length = mmdzzhdArr.length;      
           console.log(`\n开始【萌喵大作战${$.index}】`)
     await wxs();

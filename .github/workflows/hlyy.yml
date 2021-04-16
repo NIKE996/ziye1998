@@ -1,0 +1,28 @@
+name: 葫芦音乐
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 0-12 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
+    steps:
+      - name: Checkout
+        run: |
+          git clone https://github.com/NIKE996/ziye1998.git ~/ziye1998
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: npm install
+        run: |
+          cd ~/ziye1998
+          npm install
+          npm install cron
+          npm install request
+      - name: '运行 【葫芦音乐】'
+        run: |
+          cd ~/ziye1998  
+          node Task/hlyy.js

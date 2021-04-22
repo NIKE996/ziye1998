@@ -1,4 +1,4 @@
-name: 返利网
+name: 返利网5
 
 on:
   workflow_dispatch:
@@ -23,7 +23,7 @@ jobs:
       - name: npm install
         run: |
           npm install
-      - name: '运行 【返利网】'
+      - name: '运行 【返利网5】'
         run: |
           node flw5.js
         env:

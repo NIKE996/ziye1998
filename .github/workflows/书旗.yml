@@ -25,7 +25,7 @@ jobs:
           npm install
       - name: '运行 【书旗】'
         run: |
-          node Task/shuqi.js
+          node shuqi.js
         env:
           
           PUSH_KEY: ${{ secrets.PUSH_KEY }}

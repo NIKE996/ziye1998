@@ -1,4 +1,4 @@
-name: 简单天气
+name: 简单天气蔡大大
 
 on:
   workflow_dispatch:

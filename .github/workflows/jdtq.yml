@@ -3,7 +3,7 @@ name: 简单天气
 on:
   workflow_dispatch:
   schedule:
-     - cron: '5,35 * * * *'
+     - cron: '5,35 0-20 * * *'
   watch:
     types: started
   repository_dispatch:
